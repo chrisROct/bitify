@@ -4,14 +4,14 @@ To setup this project:
 download repo to local directory (example: users/default/project/bitify)
 
 using cmd, change directory to project directory and run
-'''
+```
 npm install
-'''
+```
 
 afterwards run app with
-'''
+```
 npm start
-'''
+```
 
 ##GOAL:
 # Client Side Dithering in a Browser for creatives
@@ -29,6 +29,7 @@ The use of this application is 100% free
 ## Legal 
 
 See LICENSE file for usage.
+
 
 
 
