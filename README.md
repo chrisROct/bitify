@@ -13,7 +13,7 @@ afterwards run app with
 npm start
 ```
 # Current state:
-Currently, saving the image with the filter applied does not work. Working on a fix to push asap!!!
+Saving the image via the download button only downloads the original image. Looking into bug fixes. Currently, Right clicking and copying the image to clipboard is the only work around.
 
 # GOAL:
 ## Client Side Dithering in a Browser for creatives
@@ -31,6 +31,7 @@ The use of this application is 100% free
 ## Legal 
 
 See LICENSE file for usage.
+
 
 
 
