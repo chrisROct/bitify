@@ -12,9 +12,11 @@ afterwards run app with
 ```
 npm start
 ```
+# Current state:
+Currently, saving the image with the filter applied does not work. Working on a fix to push asap!!!
 
-##GOAL:
-# Client Side Dithering in a Browser for creatives
+# GOAL:
+## Client Side Dithering in a Browser for creatives
 
 While learning more about git and react, I chose to create a tool for a friend making games requiring 1-bit sprites created from other images. The goal of this project is to offer a quick and easy to use tool that applies a very specific dithering effect to any and all images that can then be downloaded for use. Client Side Dithering means no use of data, and should a user opt to setup this tool as a localhost application, no internet connection is required afterwards either!
 
@@ -29,6 +31,7 @@ The use of this application is 100% free
 ## Legal 
 
 See LICENSE file for usage.
+
 
 
 
