@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/bitify/static/css/main.d82ab47f.css",
+    "main.js": "/bitify/static/js/main.5f3aa69c.js",
+    "static/js/453.e3c3be24.chunk.js": "/bitify/static/js/453.e3c3be24.chunk.js",
+    "index.html": "/bitify/index.html",
+    "main.d82ab47f.css.map": "/bitify/static/css/main.d82ab47f.css.map",
+    "main.5f3aa69c.js.map": "/bitify/static/js/main.5f3aa69c.js.map",
+    "453.e3c3be24.chunk.js.map": "/bitify/static/js/453.e3c3be24.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d82ab47f.css",
+    "static/js/main.5f3aa69c.js"
+  ]
+}
