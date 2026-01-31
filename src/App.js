@@ -5,6 +5,7 @@ import { ImageDithering } from "@paper-design/shaders-react";
 const BitifyImage = () => {
   const [selectedImage, setSelectedImage] = useState(null);
 
+
   return (
     <body className="App-header">
     <div>
@@ -12,7 +13,9 @@ const BitifyImage = () => {
       {selectedImage && (
         <div className="App-header">
           {/* Display the selected image and apply the dithering shader provided by @paper-design */}
-            <ImageDithering
+            <ImageDithering onChange={(event) => {
+          console.log(event.target.files[0]);
+          setSelectedImage(event.target.files[0]);}}
             width={1280}
             height={720}
             image= {URL.createObjectURL(selectedImage)}
@@ -25,8 +28,9 @@ const BitifyImage = () => {
             size={1}
             colorSteps={2}
             fit="contain"
-          />
-          <button onClick={  function downloadImage() {
+            />
+          <button onClick={ function () {
+
             const blob = new Blob([selectedImage], { type: "image/bitmap" });
             const url = URL.createObjectURL(blob);
             const link = document.createElement("a");
